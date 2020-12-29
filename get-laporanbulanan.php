@@ -14,7 +14,7 @@
             'totaltransaksi'=>$data["totaltransaksi"],
             'income'=>$data["income"],
             'outcome'=>$data["outcome"]
-        )
+        );
     }
 
 ?>
