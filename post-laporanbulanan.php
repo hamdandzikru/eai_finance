@@ -28,4 +28,11 @@ include "conn.php";
 	
 	//query
 	$query = mysqli_query($con, $sql);
+	if($query){
+		$msg = "Succesfully saved data!";
+	}else{
+		$msg = "Failed to save the data!";
+	}
+
+	echo $msg;
 ?>
