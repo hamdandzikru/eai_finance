@@ -27,5 +27,5 @@ include "conn.php";
 // VALUES ('11987', '028', 'April', '298', '32000000', '11000000');";
 	
 	//query
-	
+	$query = mysqli_query($con, $sql);
 ?>
