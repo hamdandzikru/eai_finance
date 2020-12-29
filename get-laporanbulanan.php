@@ -17,4 +17,11 @@
         );
     }
 
+    $response = array(
+        'status'=>'OK',
+        'data'=>$item
+    );
+
+    echo json_encode($response);
+
 ?>
