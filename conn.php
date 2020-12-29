@@ -10,6 +10,6 @@
 
     $con = mysqli_connect("localhost","root","","finance");
     if($con){
-      echo "DB Connected";
+      echo "---DB Connected--- \n";
     }
 ?>
