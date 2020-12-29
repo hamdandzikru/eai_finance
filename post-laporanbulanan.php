@@ -34,5 +34,12 @@ include "conn.php";
 		$msg = "Failed to save the data!";
 	}
 
-	echo $msg;
+	// echo $msg;
+
+	$response = array(
+		'status' => 'OK',
+		'msg' => $msg
+	);
+
+	echo json_encode($response);
 ?>
