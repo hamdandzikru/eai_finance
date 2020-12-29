@@ -14,6 +14,10 @@ include "conn.php";
 	$outcome = isset($_POST["outcome"]) ? $_POST["outcome"] : "";
 	echo $outcome;
 
-	$sql = "INSERT INTO `laporan_bulanan` (`id_laporanbulan`, `id_divisi`, `bulan`, `totaltransaksi`, `income`, `outcome`) VALUES ('11987', '028', 'Maret', '298', '32000000', '11000000');";
+	$sql = "INSERT INTO `laporan_bulanan` (`id_laporanbulan`, `id_divisi`, `bulan`, `totaltransaksi`, `income`, `outcome`) 
+	VALUES ('11987', '028', 'April', '298', '32000000', '11000000');";
+
+$sql = "INSERT INTO `laporan_bulanan` (`id_laporanbulan`, `id_divisi`, `bulan`, `totaltransaksi`, `income`, `outcome`) 
+VALUES ('11987', '028', 'April', '298', '32000000', '11000000');";
 	
 ?>
