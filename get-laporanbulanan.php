@@ -13,7 +13,8 @@
             'bulan'=>$data["bulan"],
             'totaltransaksi'=>$data["totaltransaksi"],
             'income'=>$data["income"],
-            'outcome'=>$data["outcome"]
+            'outcome'=>$data["outcome"],
+            'deskripsi'=>$data["deskripsi"]
         );
     }
 
