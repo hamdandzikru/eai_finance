@@ -4,11 +4,11 @@ include "conn.php";
 	$id_laporantahun = isset($_POST["id_laporantahun"]) ? $_POST["id_laporantahun"] : "";
 	echo $id_laporantahun;
 
-	$id_divisi = isset($_POST["id_divisi"]) ? $_POST["id_divisi"] : "";
-	echo $id_divisi;
+	$id_laporanbulan = isset($_POST["id_laporanbulan"]) ? $_POST["id_laporanbulan"] : "";
+	echo $id_laporanbulan;
 
-	$bulan = isset($_POST["bulan"]) ? $_POST["bulan"] : "";
-	echo $bulan;
+	$tahun = isset($_POST["tahun"]) ? $_POST["tahun"] : "";
+	echo $tahun;
 
 	$totaltransaksi = isset($_POST["totaltransaksi"]) ? $_POST["totaltransaksi"] : "";
 	echo $totaltransaksi;
