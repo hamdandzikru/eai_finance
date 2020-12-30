@@ -23,7 +23,7 @@ include "conn.php";
 	echo $deskripsi;
 
 	$sql = "INSERT INTO `laporan_tahunan` (`id_laporantahun`, `id_laporanbulan`, `tahun`, `totaltransaksi`, `income`, `outcome`, `evaluasi`) 
-	VALUES ('".$id_laporanbulan."', '".$id_divisi."', '".$bulan."', '".$totaltransaksi."', '".$income."', '".$outcome."', '".$deskripsi."');";
+	VALUES ('".$id_laporantahun."', '".$id_laporanbulan."', '".$tahun."', '".$totaltransaksi."', '".$income."', '".$outcome."', '".$evaluasi."');";
 
 	echo $sql;
 // $sql = "INSERT INTO `laporan_bulanan` (`id_laporanbulan`, `id_divisi`, `bulan`, `totaltransaksi`, `income`, `outcome`) 
