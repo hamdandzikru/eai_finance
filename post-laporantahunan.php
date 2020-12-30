@@ -22,7 +22,7 @@ include "conn.php";
 	$evaluasi = isset($_POST["evaluasi"]) ? $_POST["evaluasi"] : "";
 	echo $deskripsi;
 
-	$sql = "INSERT INTO `laporan_bulanan` (`id_laporanbulan`, `id_divisi`, `bulan`, `totaltransaksi`, `income`, `outcome`, `deskripsi`) 
+	$sql = "INSERT INTO `laporan_tahunan` (`id_laporantahun`, `id_laporanbulan`, `tahun`, `totaltransaksi`, `income`, `outcome`, `evaluasi`) 
 	VALUES ('".$id_laporanbulan."', '".$id_divisi."', '".$bulan."', '".$totaltransaksi."', '".$income."', '".$outcome."', '".$deskripsi."');";
 
 	echo $sql;
