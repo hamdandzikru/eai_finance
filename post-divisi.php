@@ -9,7 +9,7 @@ include "conn.php";
     
 
 	$sql = "INSERT INTO `divisi` (`id_divisi`, `nama_divisi`) 
-	VALUES ('".$id_divisi."', '".$id_divisi."', '".$bulan."', '".$totaltransaksi."', '".$income."', '".$outcome."');";
+	VALUES ('".$id_divisi."', '".$nama_divisi."');";
 
 	echo $sql;
 	
