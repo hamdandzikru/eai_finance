@@ -19,8 +19,11 @@ include "conn.php";
 	$outcome = isset($_POST["outcome"]) ? $_POST["outcome"] : "";
 	echo $outcome;
 
-	$sql = "INSERT INTO `laporan_bulanan` (`id_laporanbulan`, `id_divisi`, `bulan`, `totaltransaksi`, `income`, `outcome`) 
-	VALUES ('".$id_laporanbulan."', '".$id_divisi."', '".$bulan."', '".$totaltransaksi."', '".$income."', '".$outcome."');";
+	$deskripsi = isset($_POST["deskripsi"]) ? $_POST["deskripsi"] : "";
+	echo $deskripsi;
+
+	$sql = "INSERT INTO `laporan_bulanan` (`id_laporanbulan`, `id_divisi`, `bulan`, `totaltransaksi`, `income`, `outcome`, `deskripsi`) 
+	VALUES ('".$id_laporanbulan."', '".$id_divisi."', '".$bulan."', '".$totaltransaksi."', '".$income."', '".$outcome."', '".$deskripsi."');";
 
 	echo $sql;
 // $sql = "INSERT INTO `laporan_bulanan` (`id_laporanbulan`, `id_divisi`, `bulan`, `totaltransaksi`, `income`, `outcome`) 
