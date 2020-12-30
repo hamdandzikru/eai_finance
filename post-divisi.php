@@ -8,8 +8,8 @@ include "conn.php";
     echo $nama_divisi;
     
 
-	$sql = "INSERT INTO `divisi` (`id_laporanbulan`, `id_divisi`, `bulan`, `totaltransaksi`, `income`, `outcome`) 
-	VALUES ('".$id_laporanbulan."', '".$id_divisi."', '".$bulan."', '".$totaltransaksi."', '".$income."', '".$outcome."');";
+	$sql = "INSERT INTO `divisi` (`id_divisi`, `nama_divisi`) 
+	VALUES ('".$id_divisi."', '".$id_divisi."', '".$bulan."', '".$totaltransaksi."', '".$income."', '".$outcome."');";
 
 	echo $sql;
 	
